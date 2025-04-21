@@ -11,7 +11,7 @@ const feeds = [
   { name: "Fortune", url: "https://fortune.com/feed/" }
 ];
 
-const proxy = "https://api.rss2json.com/v1/api.json?rss_url=";
+const proxy = "https://feedroll-proxy.glitch.me/?url=";
 
 async function loadFeeds() {
   const container = document.getElementById("rss-container");
