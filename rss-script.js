@@ -1,10 +1,14 @@
 const feeds = [
-  { name: "Le Temps", url: "https://www.letemps.ch/rss" },
   { name: "Le Monde (Économie)", url: "https://www.lemonde.fr/economie/rss_full.xml" },
   { name: "WSJ Markets", url: "https://feeds.a.dj.com/rss/RSSMarketsMain.xml" },
+  { name: "WallStreetBets (Reddit)", url: "https://www.reddit.com/r/wallstreetbets/.rss" },
+  { name: "Le Temps", url: "https://www.letemps.ch/rss" },
   { name: "Bloomberg Businessweek", url: "https://www.bloomberg.com/feed/podcast/bloombergbusinessweek.xml" },
   { name: "Financial Times (proxy)", url: "https://rss.app/feeds/J9Ub9yQbBJ0wRrSB.xml" },
-  { name: "WallStreetBets (Reddit)", url: "https://www.reddit.com/r/wallstreetbets/.rss" }
+  { name: "Business Insider", url: "https://markets.businessinsider.com/rss/news" },
+  { name: "CNBC", url: "https://www.cnbc.com/id/100003114/device/rss/rss.html" },
+  { name: "Reuters", url: "http://feeds.reuters.com/reuters/businessNews" },
+  { name: "Fortune", url: "https://fortune.com/feed/" }
 ];
 
 const proxy = "https://api.rss2json.com/v1/api.json?rss_url=";
