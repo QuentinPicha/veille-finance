@@ -1,12 +1,12 @@
-const backend = "https://ton-backend.onrender.com/rss/";
+const backend = "https://veille-finance.onrender.com/rss/";
 
 const feeds = [
   { name: "Le Temps", source: "letemps" },
-  { name: "Le Monde", source: "lemonde" },
+  { name: "Le Monde (Économie)", source: "lemonde" },
   { name: "WSJ Markets", source: "wsj" },
   { name: "Bloomberg", source: "bloomberg" },
-  { name: "FT", source: "ft" },
-  { name: "WallStreetBets", source: "reddit" },
+  { name: "Financial Times", source: "ft" },
+  { name: "WallStreetBets (Reddit)", source: "reddit" },
   { name: "Business Insider", source: "bi" },
   { name: "CNBC", source: "cnbc" },
   { name: "Reuters", source: "reuters" },
